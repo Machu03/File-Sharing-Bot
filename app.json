@@ -10,36 +10,28 @@
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "description": "Your Bot token, Get it from @Botfather"
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "description": "An integer of consisting of your owner ID"
     },
     "APP_ID":{
-      "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "description": "your app id, take it from my.telegram.org"
     },
     "DATABASE_URL": {
-      "description": "Paste your mongo db url",
-      "value": "url"
+      "description": "Paste your mongo db url"
     },
     "DATABASE_NAME":{
-      "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "description": "Enter your DATABASE_NAME "
     },
     "API_HASH":{
-      "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "description": "your api hash, take it from my.telegram.org"
     },
     "CHANNEL_ID":{
-      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id"
     },
     "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "description": "id of the channel or group, if you want enable force sub feature else put 0"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -50,9 +42,7 @@
       "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
     },
     "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
-      "required": false
+      "description": "A space separated list of user_ids of Admins, they can only create links"
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
